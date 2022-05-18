@@ -19,10 +19,6 @@ public class PlatformGenerator : MonoBehaviour
         CreatePlatform();
     }
 
-    private void FixedUpdate()
-    {
-    }
-
     private void CreatePlatform()
     {
         var howManyPlatform = Random.Range(1, 3);
